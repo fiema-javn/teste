@@ -16,9 +16,6 @@ Você deverá criar uma aplicação Spring Boot que gerencie um carrinho de comp
 3. Estrutura do Repositório
 
 cart-app/
-├── README.md
-├── docker-compose.yml
-├── Dockerfile             (opcional, para containerizar a aplicação)
 ├── src/
 │   ├── main/
 │   │   ├── java/com/candidato/cart
@@ -32,9 +29,6 @@ cart-app/
 │   └── test/
 │       └── java/com/candidato/cart
 └── .gitignore
-
-
-⸻
 
 4. Passo a Passo
 
