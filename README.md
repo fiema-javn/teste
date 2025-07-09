@@ -1,12 +1,9 @@
-Manual do Candidato – Teste para Vaga Júnior Java
 
-⸻
 
 1. Visão Geral
 
 Você deverá criar uma aplicação Spring Boot que gerencie um carrinho de compras simples, com persitência em PostgreSQL e execução via Docker Compose. Todo o código deve estar em um repositório Git (GitHub, GitLab ou similar), com histórico de commits claros e um README orientando a execução.
 
-⸻
 
 2. Pré-requisitos
 	•	Java 17 ou superior
@@ -15,7 +12,6 @@ Você deverá criar uma aplicação Spring Boot que gerencie um carrinho de comp
 	•	Conta em plataforma Git (GitHub, GitLab etc.)
 	•	IDE de sua preferência (IntelliJ IDEA, VS Code, Eclipse)
 
-⸻
 
 3. Estrutura do Repositório
 
