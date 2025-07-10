@@ -1,15 +1,31 @@
 # Desafio Engineer Fullstack
 
 ## Descrição
-Este repositório contém o desafio técnico para vaga de Desenvolvedor Fullstack. O candidato deverá implementar um **Catálogo de Livros** com backend em Java/Spring Boot, frontend em ReactJS e dockerização completa.
+Você foi contratado por uma startup de livraria online que precisa de um Catálogo de Livros. O sistema deve permitir que o time interno gerencie o estoque e que usuários finais pesquisem e visualizem informações dos livros.
+O candidato deverá implementar um **Catálogo de Livros** com backend em Java/Spring Boot, frontend em ReactJS e dockerização completa.
 
 ## Tecnologias
-- Java 17+ e Spring Boot  
+- Java 17+ e Spring Boot
 - Spring Data JPA  
 - Banco de dados relacional (PostgreSQL ou MySQL)  
 - ReactJS  
-- Docker e Docker Compose  
-- Git  
+- Docker e/ou Docker Compose  
+- Git
+
+## Backend (Spring Boot):
+	-	CRUD de livros: título, autor, ISBN, data de publicação, quantidade em estoque, preço.
+	-	Busca paginada e filtrada por título e autor.
+	-	Endpoints REST seguindo boas práticas (status HTTP adequados, DTOs, tratamento de exceções).
+
+## Frontend (ReactJS):
+	-	Listagem paginada de livros com filtros por título/autor.
+	-	Formulário para criar e editar livros (validar campos obrigatórios).
+	-	Tela de detalhe do livro.
+	-	Navegação entre rotas (React Router ou similar).
+
+## Docker:
+	-	Dockerfile para o backend e outro para o frontend.
+	-	Compor ambos em um docker-compose.yml, incluindo um container de banco (PostgreSQL ou MySQL).
 
 ## Pré-requisitos
 - Java 17 ou superior  
@@ -23,7 +39,7 @@ Este repositório contém o desafio técnico para vaga de Desenvolvedor Fullstac
 ├── backend/            # API em Spring Boot
 ├── frontend/           # Aplicação ReactJS
 ├── docker-compose.yml  # Composição dos containers
-└── README_PLENO.md     # Este arquivo
+└── README.md           # Documentação básica do projeto
 ```
 
 ## Endpoints Principais (exemplos)
